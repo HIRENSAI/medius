@@ -15,7 +15,7 @@ export default function StartPage() {
         📞 Need help? Call (415) 987-6543
       </div>
 
-      <h1 className="text-3xl font-bold">Hi, I'm Betsy!</h1>
+      <h1 className="text-3xl font-bold">Hi, I&apos;m Betsy!</h1>
       <p className="text-lg">What can I help you with?</p>
 
       <div className="mt-6 space-y-4 w-72">
@@ -51,7 +51,7 @@ export default function StartPage() {
       </div>
 
       <div className="mt-6 p-4 bg-gray-100 rounded-md text-sm">
-        <p className="font-semibold">After a few questions, you'll unlock:</p>
+        <p className="font-semibold">After a few questions, you&apos;ll unlock:</p>
         <ul className="mt-2 space-y-1 text-green-600">
           <li>✅ Custom mortgage rates</li>
           <li>💲 Exclusive offers</li>

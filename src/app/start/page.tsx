@@ -26,7 +26,7 @@ export default function StartPage() {
           <span className="mr-2">🏠</span> Buying a home
         </button>
         <button
-          onClick={handleOptionClick}
+          onClick={() => router.push("/mortgage-calculator")}
           className="w-full flex items-center justify-center border border-gray-300 py-3 rounded-lg text-green-600 font-medium shadow-sm hover:bg-white hover:text-green-600 transition-all duration-300"
         >
           <span className="mr-2">💰</span> Refinance my mortgage

@@ -22,7 +22,7 @@ export default function MortgageCalculator() {
         setMonthlyPayment(principal / totalPayments);
       } else {
         const monthly = (principal * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -totalPayments));
-        setMonthlyPayment(monthly.toFixed(2));
+        setMonthlyPayment(parseFloat(monthly.toFixed(2)));
       }
     };
 
